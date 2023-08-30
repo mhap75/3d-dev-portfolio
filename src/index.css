@@ -242,4 +242,12 @@
     .flexCol {
         @apply flex flex-col
     }
+
+    .flexCenter {
+        @apply flex items-center justify-center
+    }
+
+    .flexWrap {
+        @apply flex flex-wrap
+    }
 }

@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="paddingX fixed top-0 z-20 flex w-full items-center bg-primary py-5">
+    <nav className="paddingX fixed top-0 z-20 flex w-full items-center bg-primary/50 py-5 backdrop-blur-xl">
       <div className="flexBetween mx-auto w-full max-w-7xl">
         <Link
           to="/"

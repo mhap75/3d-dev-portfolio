@@ -2,7 +2,7 @@ import {
   backend,
   carrent,
   creator,
-  css,
+  css, digital,
   docker,
   figma,
   git,
@@ -11,8 +11,8 @@ import {
   jobit,
   meta,
   mobile,
-  mongodb,
-  nodejs,
+  mongodb, next,
+  nodejs, react,
   reactjs,
   redux,
   shopify,
@@ -22,7 +22,7 @@ import {
   threejs,
   tripguide,
   typescript,
-  web,
+  web
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +42,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "React Developer",
+    icon: react,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "NEXT Developer",
+    icon: next,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "Digital Marketer",
+    icon: digital,
   },
 ];
 
@@ -262,4 +258,4 @@ const projects = [
   },
 ];
 
-export { experiences, projects, services, technologies, testimonials };
+export { experiences,projects,services,technologies,testimonials };
