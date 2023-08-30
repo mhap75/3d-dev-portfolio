@@ -3,15 +3,13 @@ import { Tilt } from "react-tilt";
 import { github, live } from "../assets/index.js";
 import { projects } from "../const/index.js";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion.js";
+import { fadeIn } from "../utils/motion.js";
+import { SectionHeading } from "./index.js";
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className="sectionSubText">My works</p>
-        <h2 className="sectionHeadText">Projects.</h2>
-      </motion.div>
+      <SectionHeading garnish="My works">Projects</SectionHeading>
 
       <div className="flex w-full">
         <motion.p

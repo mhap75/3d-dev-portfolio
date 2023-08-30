@@ -2,15 +2,13 @@ import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
 import { services } from "../const/index.js";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion.js";
+import { fadeIn } from "../utils/motion.js";
+import { SectionHeading } from "./index.js";
 
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className="sectionSubText">Introduction</p>
-        <h2 className="sectionHeadText">Overview.</h2>
-      </motion.div>
+      <SectionHeading garnish="Introduction">Overview.</SectionHeading>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}

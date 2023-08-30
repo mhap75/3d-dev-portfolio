@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -6,15 +5,14 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "../const/index.js";
 import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion.js";
+import { SectionHeading } from "./index.js";
 
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className="sectionSubText">What I have so far been up to</p>
-        <h2 className="sectionHeadText">Experiences.</h2>
-      </motion.div>
+      <SectionHeading garnish="What I have so far been up to">
+        Experiences.
+      </SectionHeading>
 
       <div className="flexCol mt-20">
         <VerticalTimeline>
