@@ -12,6 +12,7 @@ import {
   EarthCanvas,
   StarsCanvas,
 } from "./canvas";
+import Input from "./common/Input.jsx";
 import SectionHeading from "./common/SectionHeading.jsx";
 
 export {
@@ -23,6 +24,7 @@ export {
   Experience,
   Feedbacks,
   Hero,
+  Input,
   Navbar,
   SectionHeading,
   StarsCanvas,
