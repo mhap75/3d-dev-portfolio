@@ -33,6 +33,7 @@ import tripguide from "./tripguide.png";
 import digital from "./digital.png";
 import next from "./next.png";
 import react from "./react.png";
+import live from "./live.png";
 
 export {
   backend,
@@ -66,4 +67,5 @@ export {
   tripguide,
   typescript,
   web,
+  live
 };
